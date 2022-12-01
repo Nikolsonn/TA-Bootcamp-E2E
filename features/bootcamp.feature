@@ -10,9 +10,9 @@ Feature: The newegg website automated tests
         Then I click on the search button
         * I see that at least 1 item appears on the results page
 
-    # @shopLogo
-    # Scenario: As a user I can access the home page via the logo button
-    #     When I open 'Today's Best Deals' tab
-    #     Then I click on the shop logo in the top right corner
-    #     * I am on the home page again
+    @shopLogo
+    Scenario: As a user I can access the home page via the logo button
+        When I open "Today's Best Deals" tab
+        Then I click on the shop logo in the top left corner
+        * I am on the home page again
 
